@@ -1,0 +1,193 @@
+body {
+  font-family: roboto;
+  margin-left: 0;
+  margin-right: 0; }
+
+.header-img {
+  margin: 0 auto; }
+  .header-img img {
+    width: 95%; }
+
+.narrow-box {
+  max-width: 750px;
+  margin: 0 auto; }
+
+img {
+  margin-bottom: 10px; }
+
+.intro {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.5; }
+
+.disclaimer {
+  margin-bottom: 90px;
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 24px; }
+
+h1 {
+  font-size: 40px;
+  color: #e0976a;
+  display: inline;
+  margin-bottom: 20px; }
+
+.intro-header {
+  margin-top: 100px; }
+  .intro-header i {
+    color: #98baad;
+    padding-right: 20px;
+    font-size: 45px; }
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 100px; }
+
+.text {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-top: 20px; }
+
+.hide {
+  display: none; }
+
+.buttons ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #d66c65;
+  border-radius: 5px; }
+.buttons li:hover, .buttons .is-active {
+  background-color: #d66c65;
+  border: 1px solid #d66c65;
+  color: white;
+  cursor: pointer; }
+
+.content_graph img {
+  width: 100%; }
+
+.flourish-embed {
+  margin-bottom: 20px; }
+
+#sections {
+  position: relative;
+  width: 250px;
+  top: 0px;
+  z-index: 90;
+  padding-bottom: 10px; }
+
+#blankbegin {
+  margin-bottom: 50px; }
+
+.action {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: -455px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: -150px; }
+
+.title {
+  color: #d66c65;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+#sections .step {
+  margin-bottom: 180px;
+  font-size: 17px;
+  line-height: 23px;
+  color: #767678;
+  padding-top: 20px; }
+  #sections .step span {
+    font-size: 14px; }
+
+#blank {
+  height: 0px !important; }
+
+#birthday {
+  position: fixed !important;
+  right: 150px;
+  bottom: 150px;
+  width: 600px; }
+
+#mom {
+  position: fixed;
+  right: 150px;
+  bottom: 150px;
+  width: 600px; }
+
+#dad {
+  position: fixed;
+  right: 150px;
+  bottom: 150px;
+  width: 600px; }
+
+#boyfriend {
+  position: fixed;
+  right: 150px;
+  bottom: 150px;
+  width: 600px; }
+
+#girlfriend {
+  position: fixed;
+  right: 150px;
+  bottom: 150px;
+  width: 600px; }
+
+#teacher {
+  position: fixed !important;
+  right: 150px;
+  bottom: 150px;
+  width: 600px; }
+
+h3 {
+  color: #d66c65;
+  font-size: 24px;
+  font-weight: bold; }
+
+footer {
+  background-color: #e0976a;
+  color: white; }
+  footer h2 {
+    max-width: 750px;
+    margin: 30px auto;
+    font-size: 36px;
+    padding-top: 30px; }
+  footer p {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 20px; }
+  footer a {
+    color: white; }
+  footer .byline {
+    padding: 0; }
+
+@media (max-width: 1200px) {
+  .narrow-box {
+    padding: 0 20px; }
+
+  #birthday {
+    right: 50px; }
+
+  #mom {
+    right: 50px; }
+
+  #dad {
+    right: 50px; }
+
+  #boyfriend {
+    right: 50px; }
+
+  #girlfriend {
+    right: 50px; }
+
+  #teacher {
+    right: 50px; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/d3.v4.min.js"></script>
+  </head>
+  <body>
+
+    <div class="header-img">
+        <img src="img/gift.gif" alt="Gift" >
+    </div>
+
+
+    <div class="narrow-box">
+
+
+      <p class="intro" data-aos="fade-left">Coming up with gift ideas during various occasions for different people has been a constant struggle for me. And Google are my dearest friend in those times. Out of curiosity, I wondered how many people are facing the same kind of problem. After some digging, I am relieved to know that I am not alone!</p>
+
+      <p class="disclaimer" data-aos="fade-right">Google search index—a number from 0 to 100 is used here to represent the relative search interest for all terms where 100 being the max value across all terms and countries.</p>
+
+      <div class="intro-header" data-aos="fade-up">
+        <i class="fas fa-search"></i>
+        <h1>What does people search gifts for?</h1>
+
+      </div>
+
+      <section id="divide" class="container box-narrow" data-aos="zoom-in">
+        <div class="text">
+
+          <p class="occasion">It is not suprising that Christmas turns out to be the most popular holiday/occasion to send gifts for. The gift search term for Christmas has the highest search interest across all years around the globe. After Christmas gift search are birthday gifts and anniversary gifts. Birthday as a common occasion for celebration, gift </p>
+
+          <p class="relationship hide">When looking at gift search terms by relationships, parents and girlfriend/boyfriend seem to gain more attention and got more gifts compare to others.</p>
+
+          <p class="gender hide">Buying gifts for males seems like a struggle on a global level. A lot more people including me ask for Google's help for the issue. However, it is possible that the phenomenon is caused due to people in general are having problem with buying gifts for the opposite sex and females just happen to give more gifts.</p>
+        </div>
+
+        <div class="content_graph">
+          <div class="buttons">
+            <ul class="button_select">
+              <li id="occasion" class="button is-active">By occasions</li>
+              <li id="relationship" class="button">By relationships</li>
+              <li id="gender" class="button">By gender</li>
+            </ul>
+          </div>
+
+          <div class="graphs">
+            <div class="flourish-embed occasion" data-src="visualisation/125134" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+
+            <div class="flourish-embed hide relationship" data-src="visualisation/146992" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+
+            <div class="flourish-embed hide gender" data-src="visualisation/147001" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="intro-header" data-aos="fade-up">
+        <i class="fas fa-redo-alt"></i>
+        <h1>Around the same time each year, these gifts has been searched</h1>
+      </div>
+
+      <section id="seaonality">
+        <div id="scrollcontainer">
+
+          <div id="graphic">
+
+            <div class="container">
+
+
+            <div id="sections" class="scroll-text">
+              <section class="step" id="blankbegin">
+                <p class="action" data-aos="zoom-in">SCROLL DOWN TO KNOW MORE</p>
+              </section>
+
+              <section class="step">
+                <!-- linechart -->
+                <div class="title">Birthday gifts search</div>
+                <span>*Each line in the graphs represents a year and the y-axis represents month.</span> <br> <br>
+
+                One interesting thing emerged from search data is that across years, there seem to always have slightly more searches for birthday during the month of July, August and September. And a huge drop during the month of November and December.
+              </section>
+              <section class="step">
+                <!-- case 1 -->
+                <div class="title">Gifts search for mom</div>
+                Mom as a popular subject for gifts search holds an interetsing pattern. The slight peak in May is probably the result of Mother's day but the huge peak in December seems to indicate mom is also a popular gift receiver during the time of Christmas.
+              </section>
+              <section class="step">
+                <!-- case 2 -->
+                <div class="title">Gifts search for dad</div>
+                Interestingly enough, gifts search for dad follows a similar pattern as the search for mom did. Despite the slight peak in June, which possible caused by Father's day, the huge peak came in December. Both side of the parents seems to receive gifts a lot during the month of Decemeber.
+              </section>
+              <section class="step">
+                <!-- case 3 -->
+                <div class="title">Gifts search for boyfriend</div>
+                The gifts search pattern for boyfriend is also very similar to the search pattern for mom and dad did. With a smaller peak in the month of Feburary probably due to Valentine's Day, the search term reaches its max on December as well.
+              </section>
+              <section class="step">
+                <!-- case 4 -->
+                <div class="title">Gift search for girlfriend</div>
+                Same pattern shows up for the gifts search for girlfriend as the search pattern for boyfriend did—a small peak in Feburary with a huge peak in December. December seem to be a huge month for gifts maybe due to Christmas and New Year.
+              </section>
+              <section class="step">
+                <!-- case 5 -->
+                <div class="title">Gift search for teachers</div>
+                A seaonal pattern corresponds to the graduation time can also be found on gift searches for teachers. Two clear peaks can be found during May and December.
+              </section>
+
+              <section class="step" id="blank">
+              </section>
+            </div>
+
+            <div class="scroll-graph">
+              <div id="birthday" class="flourish-embed birthday" data-src="visualisation/147559" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+              <div id="mom" class="flourish-embed" data-src="visualisation/173173" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+              <div id="dad" class="flourish-embed" data-src="visualisation/173204" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+              <div id="boyfriend" class="flourish-embed" data-src="visualisation/173215" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+              <div id="girlfriend" class="flourish-embed" data-src="visualisation/173245" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+              <div id="teacher" class="flourish-embed" data-src="visualisation/173248" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- <div class="text">
+          <h2>Birthday Gifts</h2>
+          <p></p>
+        </div>
+
+        <div class="content_graph">
+          <div class="flourish-embed" data-src="visualisation/147559" data-height="400px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div> -->
+      </section>
+
+
+      <div class="intro-header" data-aos="fade-up">
+        <i class="fas fa-globe-americas"></i>
+        <h1>What does people in US search for?</h1>
+      </div>
+
+      <section id="us_map" data-aos="zoom-in">
+        <div class="text">
+
+          <p>I took a closer look at some of the popular gift search terms across the United States on a state level, and it seems like people in New York, pennsylvania, Wyoming, South and North Dakoda need a lot more help on choosing gifts in general.</p>
+        </div>
+
+        <div class="content_graph">
+          <div class="flourish-embed" data-src="visualisation/147286"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+      </section>
+
+
+      <div class="intro-header" data-aos="fade-up">
+        <i class="fas fa-globe"></i>
+        <h1>What about the world?</h1>
+      </div>
+
+      <section id="world" data-aos="zoom-in">
+
+          <div class="text">
+            <p>Across all popular search terms, United States, Canada and Australia tend to have a higher search rate compare to rest of the world. Among all search terms, Christmas gift and birthday gift search seem to be the more popular terms compare to others.</p>
+          </div>
+
+          <div class="flourish-embed" data-src="visualisation/147294"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+
+
+
+        </div>
+      </section>
+    </div>
+
+
+
+    <footer>
+        <h2>About the project</h2>
+        <p>This is a class project with <a href="http://albertocairo.com">Alberto Cairo</a> using data from Google News Lab.</p>
+        <p>All data in this project is language-agnostic, which means it takes into account the same word across languages to provide a more accurate image of the global search data.</p>
+        <p>To read more about the project development process please visit <a href="https://medium.com/@sharrytong/creating-a-visual-story-using-google-data-what-gifts-should-i-buy-b0a99aed670a">here</a>.</p>
+        <p class="byline"><b>Professor: Alberto Cairo</b></p>
+        <p><b>Story, design and development: Siyuan Tong</b></p>
+
+    </footer>
+
+
+
+    <!-- <script src='https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js'></script> -->
+  	<!-- <script src='js/scrollama.min.js'></script> -->
+
+    <!--    d3 js-->
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="js/d3.v3.min.js" charset="utf-8"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.21.0/d3-legend.js"></script>
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/scroller_settings.js"></script>
+    <script type="text/javascript" src="js/mfreeman_scroller.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+  </body>
+</html>

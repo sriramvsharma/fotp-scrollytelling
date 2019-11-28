@@ -1,0 +1,421 @@
+body {
+  font-family: roboto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header-img {
+  // width: 90%;
+  margin: 0 auto;
+  img {
+    width: 95%;
+
+  }
+}
+
+.narrow-box {
+  // max-width: 920px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.disclaimer {
+  margin-bottom: 90px;
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #e0976a;
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.intro-header {
+  i {
+    color: #98baad;
+    padding-right: 20px;
+    font-size: 45px;
+  }
+  margin-top: 100px;
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 100px;
+}
+
+.text {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+// .world_map {
+//   display: grid;
+//   grid-gap: 10px;
+//   grid-template-columns: 1fr 1fr;
+// }
+
+.hide {
+  display: none;
+}
+
+.buttons {
+  ul li {
+   display: inline-block;
+   list-style-type: none;
+   margin: 10px;
+   // color: white;
+   padding: 5px;
+   border: 1px solid #d66c65;
+   border-radius:5px;
+  }
+  li:hover, .is-active{
+    background-color: #d66c65;
+    border: 1px solid #d66c65;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.content_graph {
+  img {
+    width: 100%;
+  }
+}
+
+.flourish-embed {
+  margin-bottom: 20px;
+  // height: 40%;
+}
+
+#sections {
+    position: relative;
+    width: 250px;
+    top: 0px;
+    z-index: 90;
+    padding-bottom: 10px;
+}
+
+#blankbegin {
+    margin-bottom: 50px;
+}
+
+.action {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: -455px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: -150px;
+}
+
+.title {
+  color: #d66c65;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+#sections .step {
+    margin-bottom: 180px;
+    font-size: 17px;
+    line-height: 23px;
+    color: #767678;
+    padding-top: 20px;
+    span {
+      font-size:14px;
+    }
+}
+
+
+
+#blank {
+    height: 0px!important;
+}
+
+#birthday {
+    position: fixed !important;
+    right: 150px;
+    bottom: 150px;
+    width: 600px;
+}
+
+#mom {
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
+    width: 600px;
+}
+
+#dad {
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
+    width: 600px;
+}
+
+#boyfriend {
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
+    width: 600px;
+}
+
+#girlfriend {
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
+    width: 600px;
+}
+
+#teacher {
+    position: fixed !important;
+    right: 150px;
+    bottom: 150px;
+    width: 600px;
+}
+
+h3 {
+  color: #d66c65;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #e0976a;
+  color: white;
+  h2 {
+    max-width: 750px;
+    margin: 30px auto;
+    font-size: 36px;
+    padding-top: 30px;
+  }
+  p {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  a {
+    color: white;
+  }
+  .byline {
+    padding: 0;
+  }
+}
+// #scroll {
+//   position: relative;
+// }
+//
+// .scroll__graphic {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   bottom: auto;
+//   width: 60%;
+//   margin-left: 40%;
+//   -webkit-transform: translate3d(0, 0, 0);
+//   -moz-transform: translate3d(0, 0, 0);
+//   transform: translate3d(0, 0, 0);
+// }
+//
+// .scroll__graphic.is-fixed {
+//   position: fixed;
+// }
+//
+// .scroll__graphic.is-bottom {
+//   bottom: 0;
+//   top: auto;
+// }
+//
+// .scroll__graphic .chart {
+//   position: absolute;
+//   right: 1rem;
+//   top: 50%;
+//   -moz-transform: translateY(-50%);
+//   -webkit-transform: translateY(-50%);
+//   transform: translateY(-50%);
+// }
+//
+// .scroll__text {
+//   padding: 0 1rem;
+//   width: 35%;
+//   max-width: 30rem;
+// }
+//
+// .step {
+//   opacity: 0;
+//   padding: 1rem;
+//   background-color: lightblue;
+// }
+//
+// .step.is-active {
+//   opacity: 1;
+//
+// }
+//
+//
+// .chart {
+//     position: absolute;
+//     right: 1rem;
+//     // left: 1rem;
+//     top: 50%;
+//     // -moz-transform: translateY(-50%);
+//     // -webkit-transform: translateY(-50%);
+//     // transform: translateY(-50%);
+//     // background-color: lightcoral;
+//     // border: 1px solid #000;
+//     width: 95%;
+// }
+@media (max-width: 770px) {
+  // #birthday {
+  //     right: 180px;
+  //     width: 400px;
+  // }
+  //
+  // #mom {
+  //     right: 180px;
+  // }
+  //
+  // #dad {
+  //     right: 180px;
+  // }
+  //
+  // #boyfriend {
+  //     right: 180px;
+  // }
+  //
+  // #girlfriend {
+  //     right: 150px;
+  // }
+  //
+  // #teacher {
+  //     right: 150px;
+  // }
+}
+
+@media (max-width: 950px) {
+
+  // #birthday {
+  //     right: 180px;
+  //     width: 400px;
+  // }
+  //
+  // #mom {
+  //     right: 180px;
+  // }
+  //
+  // #dad {
+  //     right: 180px;
+  // }
+  //
+  // #boyfriend {
+  //     right: 180px;
+  // }
+  //
+  // #girlfriend {
+  //     right: 150px;
+  // }
+  //
+  // #teacher {
+  //     right: 150px;
+  // }
+
+  // .scroll__graphic {
+  //   width: 100%;
+  //   margin: 0;
+  // }
+  //
+  // .scroll__text {
+  //   width: 75%;
+  //   margin: 0 auto;
+  //   position: relative;
+  //   z-index: 100;
+  // }
+  //
+  // .chart {
+  //    width: 95%;
+  // }
+
+}
+
+@media (max-width: 1200px) {
+  .narrow-box {
+    padding: 0 20px;
+  }
+
+  #birthday {
+      right: 50px;
+
+  }
+
+  #mom {
+      right: 50px;
+  }
+
+  #dad {
+      right: 50px;
+  }
+
+  #boyfriend {
+      right: 50px;
+  }
+
+  #girlfriend {
+      right: 50px;
+  }
+
+  #teacher {
+      right: 50px;
+  }
+}
+
+
+// rgb(231,131,116)
+// rgba(231,131,116,0.9)
+// rgba(231,131,116,0.1)
+//
+// rgb(224,151,106)
+
+//
+// 2018:#d66c65
+// 2017:#e0976a
+// 2016: #f1df94
+// 2015: #748a71
+// 2014: #98baad
+// 2013: #e78374
+
+
+// 2018: rgb(231,131,116)
+// 2017: rgba(231,131,116,0.9)
+// 2016: rgba(231,131,116,0.8)
+// 2015: rgba(231,131,116,0.7)
+// 2014: rgba(231,131,116,0.6)
+// 2013: rgba(231,131,116,0.5)
+// 2012: rgba(231,131,116,0.4)
+// 2011: rgba(231,131,116,0.3)
+// 2010: rgba(231,131,116,0.2)
+// 2009: rgba(231,131,116,0.1)
+// 2008: rgba(231,131,116,0.1)
+// 2007: rgba(231,131,116,0.1)
+// 2006: rgba(231,131,116,0.1)
+// 2005: rgba(231,131,116,0.1)
+// 2004: rgba(231,131,116,0.1)
