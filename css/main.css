@@ -9,7 +9,7 @@ body {
     width: 95%; }
 
 .narrow-box {
-  max-width: 750px;
+  max-width: 1000px;
   margin: 0 auto; }
 
 img {
@@ -76,7 +76,7 @@ h1 {
 
 #sections {
   position: relative;
-  width: 250px;
+  width: 400px;
   top: 0px;
   z-index: 90;
   padding-bottom: 10px; }
@@ -103,7 +103,7 @@ h1 {
   font-size: 17px;
   line-height: 23px;
   color: #767678;
-  padding-top: 20px; }
+  padding-top: 100px; }
   #sections .step span {
     font-size: 14px; }
 
